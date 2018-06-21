@@ -4,8 +4,16 @@ using UnityEngine;
 
 public class MagnetController : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+    BoxCollider2D boxCollider2D;
+
+    // Use this for initialization
+    void Awake()
+    {
+        boxCollider2D = GetComponent<BoxCollider2D>();
+    }
+
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
