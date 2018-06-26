@@ -5,6 +5,7 @@ licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Magnet_Sprite
+    21300002: knight_Sprite
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -108,6 +109,20 @@ TextureImporter:
         y: 2032
         width: 16
         height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: knight_Sprite
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2040
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
